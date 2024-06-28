@@ -1,0 +1,49 @@
+
+body {
+    /* background-image: url(./images/bg-image3.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(#9BB1AD30,#8fbbb3 );
+
+
+}
+.intro {
+    font-weight: 400;
+}
+.navigation {
+    opacity: 1;
+}
+
+#title-name {
+    
+    font-weight : bolder;
+}
+.navlinks {
+    display : flex ;
+    width: 100%;
+    justify-content: flex-end;
+}
+.profile-image {
+    border-radius: 50%;
+    height: 480px;
+    width: 480px;
+    object-fit : cover;
+}
+
+.title-1 {
+    font-size: 80px;
+}
+.title-2 {
+    font-size: larger;
+}
+@media(max-width: 540px) and (min-width : 200px){
+    .profile-image {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        object-fit :cover;
+        
+    }
+}
